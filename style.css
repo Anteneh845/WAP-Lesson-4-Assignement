@@ -11,9 +11,11 @@ form>label{
     color: red;
     content: " *";
 }
+
 label{
     display: inline-block;
 }
+
 .form-input{
     margin: 40px;
 }
