@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <span class="header-title"> Workshop Registration</span>
+        <select class="more-option">
+            <option> More options</option>
+        </select>
+    </header>
+    <div class="form-container">
+        <form method="POST" action="index.html">
+            <div class="basic-info">
+                <div class="form-input">
+                    <u> Register now while seats are available</u>
+                </div>
+                <div class="form-input">
+                    <label for="firstName" class="required"> First Name</label>
+                    <input id="firstName" type="text" required />
+                </div>
+                <div class="form-input">
+                    <label for="lastName" class="required">Last Name</label>
+                    <input id="lastName" type="text" required />
+                </div>
+                <div class="form-input">
+                    <label for="companyInstitution" class="required">CompanyInstitution </label>
+                    <input id="companyInstitution" type="text" required />
+                </div>
+                <div class="form-input address-textBox">
+                    <label for="address" class="required">Address </label>
+                    <textarea id="address" rows="5"> </textarea>
+                </div>
+                <br/><br/>
+                <div class="form-input">
+                    <label for="city" class="required">City</label>
+                    <input id="city" type="text" required />
+                </div>
+                <div class="form-input">
+                    <label for="state" class="required">State/Province/Region</label>
+                    <select id="state">
+                        <option selected disabled> --Select-- </option>
+                        <option value="iowa"> Iowa </option>
+                        <option value="newyork"> Newyork </option>
+                        <option value="california"> California </option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <label for="country" class="required">Country</label>
+                    <select id="country">
+                        <option selected disabled> --Select-- </option>
+                        <option value="eth"> Ethiopia </option>
+                        <option value="usa"> United states of america </option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <label for="email" class="required"> Email</label>
+                    <input id="email" type="email" required />
+                </div>
+                <div class="form-input">
+                    <label for="phoneNumber" class="required">Phone Number</label>
+                    <input type="text" id="phoneNumber" required="required" />
+                </div>
+            </div>
+            <div class="lunch-form">
+                <u> Lunch </u>
+                <div class="form-input">
+                    <label for="meal"> Meal preference </label>
+                    <select id="meal" class="styled-select">
+                        <option> Vegiterian </option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <u> Payment details</u>
+                </div>
+                <div class="form-input">
+                    <label> Payment Mode </label>
+                    <label class="display-block payment-mode">
+                        <input type="checkbox" />Cash
+                    </label>
+                    <label class="display-block payment-mode">
+                        <input type="checkbox" /> Check
+                    </label>
+                    <label class="display-block payment-mode">
+                        <input type="checkbox" /> Demand Draft
+                    </label>
+                </div>
+                <div class="form-input">
+                    <label for="checkNo"> DD/Check No. </label>
+                    <input id="checkNo" type="text" />
+                </div>
+                <div class="form-input">
+                    <label for="bankName"> Drawn on(Bank name) </label>
+                    <input type="text" id="bankName" />
+                </div>
+                <div class="form-input">
+                    <label for="payableAt"> Payable at</label>
+                    <input id="payableAt" type="text" />
+                </div>
+                <br /> <br /> <br/> <br/> <br /> <br />
+            </div>
+            <div class="display-block form-action">
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
